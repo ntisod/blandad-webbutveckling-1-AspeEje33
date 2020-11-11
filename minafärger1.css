@@ -1,20 +1,50 @@
-h1{
+header{
+    background-color: lightblue;
+}
+header{
+
     color: #a833ac;
-   } 
-   body{
-       animation: pulse 4s infinite;
+} 
+nav{
+    background-color: lightpink;
+}
+main{
+    background-color: lightyellow;
+}
+footer{
+    background-color: lightgreen;
+}
+body{
+    animation: pulse 4s infinite;
+    max-width: 400px;
    }
    
-   @keyframes pulse {
-       0% {
-           background-color: #61a2ec;
-       }
-       100% {
-           background-color: #87bdd8;
-       }
-   }
+@keyframes pulse {
+    0% {
+        background-color: #61a2ec;
+    }
+    100% {
+        background-color: #87bdd8;
+    }
+}
    #example1 {
     background-image: url(img_flwr.gif), url(paper.gif);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
-  }
+}
+a{
+    color:yellow; 
+    background-color: blue;
+    border: 8px yellow;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: orange;
+}
+a:active{
+    border-width: 8px;
+}
