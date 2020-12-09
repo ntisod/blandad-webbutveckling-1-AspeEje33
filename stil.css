@@ -12,12 +12,13 @@ a{
     text-decoration: none;
 }
 
-}
+
 
 
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+  
 
     @media only screen and (min-width: 768px) {
         /* For desktop: */
@@ -39,9 +40,9 @@ a{
   @media only screen and (min-width: 768px) {
       /*For desktop*/
     }
-  
 
 
+    
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
