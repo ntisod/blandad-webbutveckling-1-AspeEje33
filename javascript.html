@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript</title>
+    <script src="javascript.js"></script>
 </head>
 <body>
+    <h1>Välkomna till Javascript</h1>
+    <button type="button"onclick="alert('Amir har skapat den här sidan, 2021-03-22')">Klicka här!</button>
     
-    <button type="button" onclick="alert('Amir har skapat den här sidan, 2021-03-22')">Klicka här!</button>
+    <button type="button"onclick="visaDialog()">Fortsätt till betalning</button>
+
+    <p id="demo">Den här sidan är skapad till att underlätta rusningstrafiken under pandemin!</p>
+    <p>Välja mellan en</p>
+    <p>Enkelbiljett?</p>
+    <p>Övriga biljetter?</p>
+
+    <form>
+        <label for="fnamn">Ange typ av biljett?</label>
+        <input type="text" id="fnamn">
+        <input type="button" value="Sök"onclick ="Writetext()">
+    </form> 
+    
+    <p id="text"></p>
+    
+    <noscript>Sorry, your browser does not support Javascript!</noscript>
+
 </body>
 </html>
