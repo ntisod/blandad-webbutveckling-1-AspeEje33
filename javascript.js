@@ -15,3 +15,13 @@ function writeText(){
     var namn = document.getElementById("fnamn").value;
     document.getElementById("text").innerHTML = namn;
 }
+
+function bild(sw) {
+    var pic;
+    if (sw == 0) {
+      pic = "Busskort.jpg"
+    } else {
+      pic = "Kort.jpg"
+    }
+    document.getElementById('myImage').src = pic;
+  }
