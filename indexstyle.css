@@ -81,8 +81,8 @@ text-transform: uppercase;
 body{
 
   background-repeat: no-repeat;
-
-    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/bh_accretiondisk_sim_stationary_websize.gif");
+  background-size: 100% 100%;
+    background-image: url("berg.jpg");
     background-size: cover;
 }
 
@@ -121,4 +121,5 @@ h1 {
 margin-left: 1070px;
 margin-top: 300px;
   }
-
+ 
+ 
