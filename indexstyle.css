@@ -127,6 +127,12 @@ margin-top: 300px;
        background-image: url('berg.jpg'); 
     }
   }
+  @media screen and (max-width: 767px) {
+    #main-img{
+        content: url(http://subtlepatterns.com/patterns/dark_embroidery.png) !important;
+    } 
+}
+
 
 
  
